@@ -1,4 +1,4 @@
-FROM princemendiratta/botsapp:latest
+FROM ajibimantoro/botsapp:latest
 
 WORKDIR /
 
@@ -8,7 +8,7 @@ WORKDIR /BotsApp
 
 RUN git init --initial-branch=multi-device
 
-RUN git remote add origin https://github.com/Prince-Mendiratta/BotsApp.git
+RUN git remote add origin https://github.com/ajibimantoro/BotsApp.git
 
 RUN git fetch origin multi-device
 
